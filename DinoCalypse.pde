@@ -160,7 +160,7 @@ void draw()
   {
     textAlign(CENTER);
     fill(black);
-    text("GAME PAUSED", 240, 240, 120, 40);
+    text("GAME OVER", 240, 240, 120, 40);
     
     // button rectangles
     if (over_button == 1)
@@ -205,7 +205,7 @@ void draw()
     
     // button text
     fill(black);
-    text("Continue Game", width/2, 310, 120, 40);
+    text("Restart Game", width/2, 310, 120, 40);
     text("About Game", width/2, 370, 120, 40);
     text("Return to Main Menu", width/2, 425, 120, 40);
     text("Exit Game", width/2, 490, 120, 40);
